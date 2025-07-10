@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DT6FEFTGBQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DT6FEFTGBQ');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -556,14 +565,14 @@
       <div class="emoji" aria-hidden="true">🔒</div>
       <h2>Join OnlyFans to view this content</h2>
       <p>Unlock exclusive photos and videos by subscribing.</p>
-      <button class="btn unlock" data-action="unlock">Join OnlyFans</button>
+      <a href="https://www.fanvue.com/bella_muse?free_trial=eb0c4fed-fbf7-43a2-a29c-291e7dd74c7c" target="_blank" class="btn unlock" rel="noopener">Join OnlyFans</a>
     </section>
 
     <section class="locked-section fade-in" id="locked-2">
       <div class="emoji" aria-hidden="true">🔒</div>
       <h2>Join OnlyFans to view this content</h2>
       <p>Subscribe now to access premium content.</p>
-      <button class="btn unlock" data-action="unlock">Join OnlyFans</button>
+      <a href="https://www.fanvue.com/bella_muse?free_trial=eb0c4fed-fbf7-43a2-a29c-291e7dd74c7c" target="_blank" class="btn unlock" rel="noopener">Join OnlyFans</a>
     </section>
 
     <!-- ================= FOOTER ================= -->
@@ -621,13 +630,6 @@
     document.querySelectorAll('.photo-item').forEach((photo) => {
       photo.addEventListener('click', () => {
         console.log('Viewing photo');
-      });
-    });
-
-    // Unlock buttons
-    document.querySelectorAll('[data-action="unlock"]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        alert('Redirecting to OnlyFans...');
       });
     });
 
